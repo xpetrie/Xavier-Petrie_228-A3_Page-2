@@ -40,6 +40,7 @@
       background-color: grey;
       width: 1440px;
       height: 4146px;
+
     }
 
     #heading {
@@ -53,41 +54,62 @@
 
     .background {
       width: 1200px;
-      height: 4050px;
+      height: 1263px;
       background-color: white;
       position: absolute;
       top: 120px;
       left: 120px
     }
-
-    #black-background {
-      background-color: black;
-      position: absolute;
-      top: 2820px;
-      left: 120px;
-      width: 1200px;
-      padding-top: 50px;
-      padding-bottom: 50px;
-      height: auto;
-  }
   
     .xlogo {
       float: left;
       margin: 20px;
     }
-    h1 {
-      color: white;
-      font-size: 50px;
+  
+    .about {
+      padding: 50px;
+      display: grid; 
+      grid-template-columns: 50% 50%;
+      align-items: center; 
+      gap: 40px; 
+      font-size: 24px;
       font-family: "Instrument Sans", sans-serif;
-      text-align: center;
+      text-align: justify;
+      width: 1170px;
+    }
+  
+    #cursive-accent {
+      color: black;
+      font-size: 100px;
+      font-family: "Kapakana", sans-serif;
+      position: absolute;
+      top: 110px; 
+      width: 100%;
+      margin: 0 auto;
+      left: 190px;
+}
+
+    .column-left {
+      /* Acts as container for image*/
+    }
+    .column-right {
+        /* Acts as container for text*/
+    }
+    
+    h1 {
+      color: black;
+      font-size: 80px;
+      font-family: "Instrument Sans", sans-serif;
+      text-align: left;
       font-weight: normal;
+      margin-top: 50px; 
+      margin-bottom: 0;
       }
     h2 {
       color: black;
       font-size: 50px;
       font-family: "Instrument Sans", sans-serif;
       text-align: left;
-      margin-top: 0;
       font-weight: normal;
       }
 
@@ -112,13 +134,24 @@
         </ul>
       </nav>
     </div>
+  
 <!-- BACKGROUND -->
   <div class="background">
- </div>
-<!-- BLACK BACKGROUND -->
-   <div id="black-background">
- </div>
-
+    <div class="about">
+        
+        <div class="column-left"> 
+            <h1>I'm</h1>
+            <div id="cursive-accent">Xavier</div>
+            <p>I am a Global Business & Digital Arts student and entrepreneur with a passion for creating feeling through design. With experience in Adobe Creative Cloud, business management, and social media campaigns, I specialize in building brand identities and digital experiences that connect with audiences. </p>
+            <p>My leadership roles have taught me how to guide teams with empathy and vision, while my work as a small business owner has sharpened my ability to turn ideas into impact. I believe design is more than aesthetics; it’s about storytelling, identity, and growth.</p>
+        </div>
+        
+        <div class="column-right">
+            <img src="Headshot.png" alt="Black and white headshot of Xavier Petrie" width="470px" height="470px">
+        </div>
+        
+    </div>
+</div>
 
 </body>
   
